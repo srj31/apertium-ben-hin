@@ -47,7 +47,7 @@
     <sdef n="prn"     c="Pronoun"/>     
     <sdef n="f"       c="Feminine"/>     
     <sdef n="m"       c="Masculine"/>     
-    <sdef n="mf"      c=""/>        
+    <sdef n="mf"      c="Masculine / Feminine"/>        
     <sdef n="vaux"    c=""/>     
     <sdef n="sg"      c="Singular"/>     
     <sdef n="pl"      c="Plural"/>     
@@ -64,21 +64,21 @@
     <sdef n="inf"     c="Infinitive"/>     
     <sdef n="pres"    c="Present tense"/>        
     <sdef n="past"    c="Past tense"/>     
-	<sdef n="impf"    c=" Imperfective participle"/>
-	<sdef n="perf"     c="Perfective participle"/>     
-	<sdef n="tv"     c="transitive"/> 	
-	<sdef n="iv"     c="intransitive"/> 	
+  	<sdef n="impf"    c=" Imperfective participle"/>
+  	<sdef n="perf"     c="Perfective participle"/>     
+  	<sdef n="tv"     c="transitive"/> 	
+  	<sdef n="iv"     c="intransitive"/> 	
     <sdef n="prs"    c="Subjunctive"/>     
     <sdef n="fut"    c="Future"/>
-	<sdef n="imp"    c="Imperative"/>
-	<sdef n="gna"    c="verbal adverb"/>
-  <sdef n="inj"     c="Interjection"/>
-	<sdef n="agnt"    c="agentive"/>
-	<sdef n="pri"    c="present indicative"/>	 	 
-	<sdef n="stem"  c="stem"/>
-	<sdef n="ord"  c="ordinal"/>
-	<sdef n="percent"  c="Percent"/>
-  <sdef n="mfn"/>
+  	<sdef n="imp"    c="Imperative"/>
+  	<sdef n="gna"    c="verbal adverb"/>
+    <sdef n="inj"     c="Interjection"/>
+  	<sdef n="agnt"    c="agentive"/>
+  	<sdef n="pri"    c="present indicative"/>	 	 
+  	<sdef n="stem"  c="stem"/>
+  	<sdef n="ord"  c="ordinal"/>
+  	<sdef n="percent"  c="Percent"/>
+    <sdef n="mfn"/>
     <sdef n="abbr"/>
 
 
