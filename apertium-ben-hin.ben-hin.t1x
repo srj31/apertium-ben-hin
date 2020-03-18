@@ -14,10 +14,10 @@
     </def-cat>
     <def-cat n="genitive">
       <cat-item tags="gen"/>
-    </def-cat>
+    </def-cat> -->
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
-    </def-cat> -->
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -28,6 +28,14 @@
 
     <def-attr n="a_nom">
       <attr-item tags="nom"/>
+    </def-attr>
+
+    <def-attr n="temps">
+       <attr-item tags="pri"/>
+    </def-attr>
+
+    <def-attr n="pers">
+       <attr-item tags="p1"/>
     </def-attr>
   </section-def-attrs>
 
