@@ -3,7 +3,7 @@
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
-<!--       <cat-item tags="np.*"/> -->
+      <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -57,13 +57,13 @@
   </section-def-macros>
 
   <section-rules>
-    <rule comment="REGLA: NOM">
+    <!-- <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
         <out>
-         <!--  <chunk name="nom" case="caseFirstWord">
+          <chunk name="nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -76,7 +76,7 @@
               <clip pos="1" side="tl" part="nbr" link-to="2"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
-          </chunk> -->
+          </chunk>
           <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
@@ -85,7 +85,7 @@
             </lu>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
     <rule comment="REGLA: SENT">
       <pattern>
