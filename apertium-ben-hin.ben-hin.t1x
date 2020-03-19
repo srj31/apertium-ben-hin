@@ -57,7 +57,7 @@
   </section-def-macros>
 
   <section-rules>
-    <rule comment="REGLA: NOM">
+    <!-- <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -85,7 +85,7 @@
             </lu>
         </out>
       </action>
-    </rule>
+    </rule> -->
 
     <rule comment="REGLA: SENT">
       <pattern>
