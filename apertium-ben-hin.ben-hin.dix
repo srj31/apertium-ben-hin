@@ -104,12 +104,17 @@
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
 
+      <!-- Gsoc2020 coding challenge -->
+
+      <!-- SECTION ADVERBS -->
+
+      <e><p><l>কোথায়<s n="adv"/></l><r>कहाँ<s n="adv"/></r></p></e>
 
       <!-- SECTION: Nouns -->
 
-      <!-- Gsoc2020 coding challenge -->
+      
 
-    <e><p><l>জেমস<s n="np"/><s n="ant"/><s n="m"/></l><r>जेम्स<s n="np" /><s n="m"/><s n="ant"/></r></p></e>
+    <e><p><l>জেমস<s n="np"/><s n="ant"/><s n="m"/></l><r>जेम्स<s n="np" /><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>মেরি<s n="np"/><s n="ant"/><s n="f"/></l><r>मैरी<s n="np" /><s n="f"/><s n="ant"/></r></p></e>
     <e><p><l>বাগান<s n="n" /><s n="mf" /><s n="nn"/></l><r>बगीचा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>আবহাওয়া<s n="n"/><s n="nt"/><s n="nn"/></l><r>मौसम<s n="n"/><s n="m"/></r></p></e>
