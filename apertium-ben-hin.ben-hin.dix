@@ -106,16 +106,21 @@
 
       <!-- Gsoc2020 coding challenge -->
 
+      <!-- SECTION ADJECTIVES -->
+      <e><p><l>খুব<s n="adj"/></l><r>बहुत<s n="adj"/></r></p></e>
+
       <!-- SECTION ADVERBS -->
 
       <e><p><l>কোথায়<s n="adv"/></l><r>कहाँ<s n="adv"/></r></p></e>
+      
+      <!-- <e><p><l><s n=""/></l><r><s n=""/></r></p></e> -->
 
       <!-- SECTION: Nouns -->
 
       
 
     <e><p><l>জেমস<s n="np"/><s n="ant"/><s n="m"/></l><r>जेम्स<s n="np" /><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>মেরি<s n="np"/><s n="ant"/><s n="f"/></l><r>मैरी<s n="np" /><s n="f"/><s n="ant"/></r></p></e>
+    <e><p><l>মেরি<s n="np"/><s n="ant"/><s n="f"/></l><r>मैरी<s n="np" /><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>বাগান<s n="n" /><s n="mf" /><s n="nn"/></l><r>बगीचा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>আবহাওয়া<s n="n"/><s n="nt"/><s n="nn"/></l><r>मौसम<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>গতকাল<s n="n"/><s n="nt"/><s n="nn"/></l><r>कल<s n="n"/><s n="m"/></r></p></e>
