@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
   <section-def-cats>
-    <def-cat n="nom">
+    <def-cat n="nnp_nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
@@ -24,6 +24,18 @@
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+    </def-attr>
+
+    <def-attr n ="gender">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+    
+    <def-attr n="a_n">
+      <attr-item tags="n"/>
+      <attr-item tags="np.ant"/>
     </def-attr>
 
     <def-attr n="a_nom">
@@ -57,35 +69,22 @@
   </section-def-macros>
 
   <section-rules>
-    <!-- <rule comment="REGLA: NOM">
+    <rule comment="REGLA: NOM">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="nnp_nom" />
       </pattern>
       <action>
         <out>
-          <chunk name="nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="gen"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><lit-tag v="nom"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="nbr" link-to="2"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
           <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_n"/>
+              <clip pos="1" side="tl" part="gender"/>
               <clip pos="1" side="tl" part="nbr"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
+              <clip pos="1" side="tl" part="a_nom"/>
+          </lu>
         </out>
       </action>
-    </rule> -->
+    </rule>
 
     <rule comment="REGLA: SENT">
       <pattern>
