@@ -108,17 +108,30 @@
 
       <!-- SECTION ADJECTIVES -->
       <e><p><l>খুব<s n="adj"/></l><r>बहुत<s n="adj"/></r></p></e>
+      <e><p><l>সুন্দর<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e> 
+      <e><p><l>গরম<s n="adj"/></l><r>गर्म<s n="adj"/></r></p></e> 
+      <e><p><l>ঠান্ডা<s n="adj"/></l><r>ठंड<s n="adj"/></r></p></e>
+      <e><p><l>বড়<s n="adj"/></l><r>बड़े<s n="adj"/></r></p></e>
+      <e><p><l>ছোট<s n="adj"/></l><r>छोटा<s n="adj"/></r></p></e>
+      <e><p><l>ছোট<s n="adj"/></l><r>छोटी<s n="adj"/></r></p></e>
+      <e><p><l>বুড়ো<s n="adj"/></l><r>बूढ़े<s n="adj"/></r></p></e>
+      <e><p><l>বুড়ো<s n="adj"/></l><r>बूढ़े<s n="adj"/></r></p></e>
+      <e><p><l>পুরানো<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
 
       <!-- SECTION ADVERBS -->
 
       <e><p><l>কোথায়<s n="adv"/></l><r>कहाँ<s n="adv"/></r></p></e>
+      <e><p><l>খুব<s n="adv"/></l><r>बहुत<s n="adv"/></r></p></e>
+
+      <!-- SECTION CONJUNCTION -->
+
+      <e><p><l>এবং<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
+      <e><p><l>বা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
+      <e><p><l>কিন্তু<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
       
       <!-- <e><p><l><s n=""/></l><r><s n=""/></r></p></e> -->
 
       <!-- SECTION: Nouns -->
-
-      
-
     <e><p><l>জেমস<s n="np"/><s n="ant"/><s n="m"/></l><r>जेम्स<s n="np" /><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>মেরি<s n="np"/><s n="ant"/><s n="f"/></l><r>मैरी<s n="np" /><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>বাগান<s n="n" /><s n="mf" /><s n="nn"/></l><r>बगीचा<s n="n"/><s n="m"/></r></p></e>
@@ -146,6 +159,28 @@
     <e><p><l>পাখি<s n="n"/><s n="mf"/><s n="aa"/></l><r>पक्षी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>প্রাণী<s n="n"/><s n="mf"/><s n="aa"/></l><r>पशु<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>মাথা<s n="n"/><s n="nt"/><s n="nn"/></l><r>सिर<s n="n"/><s n="m"/></r></p></e>
+
+
+    <!-- SECTION VERBS -->
+      <e><p><l>খেল<s n="vblex"/></l><r>खेल<s n="vblex"/></r></p></e>
+      <e><p><l>পছন্দ<s n="vblex"/></l><r>पसंद<s n="vblex"/></r></p></e>
+      <e><p><l>ঘুম<s n="vblex"/></l><r>सोना<s n="vblex"/></r></p></e>
+      <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
+      <e><p><l>দৌড়<s n="vblex"/></l><r>दौड़<s n="vblex"/></r></p></e>
+      <e><p><l>লুকা<s n="vblex"/></l><r>छिप<s n="vblex"/></r></p></e> 
+      <e><p><l>বস<s n="vblex"/></l><r>बैठ<s n="vblex"/></r></p></e>
+      <e><p><l>গুন<s n="vblex"/></l><r>गिन<s n="vblex"/></r></p></e>
+      <e><p><l>খোঁজ<s n="vblex"/></l><r>खोज<s n="vblex"/></r></p></e>
+      <e><p><l>বল<s n="vblex"/></l><r>बोल<s n="vblex"/></r></p></e>
+      <e><p><l>হাস<s n="vblex"/></l><r>हँस<s n="vblex"/></r></p></e>
+      <e><p><l>ভাব<s n="vblex"/></l><r>सोच<s n="vblex"/></r></p></e>
+      <e><p><l>জানা<s n="vblex"/></l><r>जान<s n="vblex"/></r></p></e>
+      <e><p><l>হাঁট<s n="vblex"/></l><r>चल<s n="vblex"/></r></p></e>
+      <e><p><l>চেষ্টা<s n="vblex"/></l><r>कोशिश<s n="vblex"/></r></p></e>
+      <e><p><l>শুন<s n="vblex"/></l><r>सुन<s n="vblex"/></r></p></e>
+      <e><p><l>খা<s n="vblex"/></l><r>खाना<s n="vblex"/></r></p></e>
+      <e><p><l>খা<s n="vblex"/></l><r>पीना<s n="vblex"/></r></p></e>
+
 <!--     <e><p><l><s n=""/></l><r><s n=""/></r></p></e>
  -->    
 
