@@ -632,17 +632,17 @@
     
     <pardef n="/prpers__prn">      
       <!-- p1.aa.mf.sg -->
-      <e><p><l>আমার</l><r>আমি<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
-      <e><p><l>আমাতে</l><r>আমি<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></r></p></e>      
-      <e><p><l>আমি</l><r>আমি<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></r></p></e>      
-      <e><p><l>আমায়</l><r>আমি<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></r></p></e>      
-      <e><p><l>আমাকে</l><r>আমি<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></r></p></e>      
+      <e><p><l>আমার</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
+      <e><p><l>আমাতে</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></r></p></e>      
+      <e><p><l>আমি</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></r></p></e>      
+      <e><p><l>আমায়</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></r></p></e>      
+      <e><p><l>আমাকে</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></r></p></e>      
 
       <!-- p1.aa.mf.pl -->
-      <e><p><l>আমাদের</l><r>আমরা<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></r></p></e>      
-      <e><p><l>আমরা</l><r>আমরা<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></r></p></e>      
-      <e><p><l>আমাদের</l><r>আমরা<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></r></p></e>      
-      <e><p><l>আমাদেরকে</l><r>আমরা<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></r></p></e>      
+      <e><p><l>আমাদের</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></r></p></e>      
+      <e><p><l>আমরা</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></r></p></e>      
+      <e><p><l>আমাদের</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></r></p></e>      
+      <e><p><l>আমাদেরকে</l><r>prpers<s n="prn" /><s n="p1" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></r></p></e>      
 
       <!-- p2.fam.aa.mf.sg -->
       <e><p><l>তোমার</l><r>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
