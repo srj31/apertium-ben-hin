@@ -28,6 +28,10 @@
     <sdef n="org"             c="Organisation"/>
     <sdef n="al"              c="Altres / misc proper nouns"/>
 
+    <sdef n="frm"             c="Formal"/>
+    <sdef n="fam"             c="Familiar"/>    
+    <sdef n="infml"           c="Informal"/>    
+    <sdef n="pol"             c="Polite"/>  
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
     <sdef n="res"             c="Reciprocal pronoun"/>
@@ -60,10 +64,12 @@
     <sdef n="ind"             c="Indefinite"/>
     <sdef n="def"             c="Definite"/>
 
+    <sdef n="rel"             c="Relative"/>
     <sdef n="nom"             c="Nominative"/>
     <sdef n="obj"             c="Objective"/>
     <sdef n="acc"             c="Accusative"/>
     <sdef n="gen"             c="Genitive"/>
+    <sdef n="dist"            c="Distant"/>
     <sdef n="dat"             c="Dative"/>
 
     <sdef n="dem"             c="Demonstrative"/>
@@ -126,6 +132,9 @@
       <e><p><l>একটু<s n="adj"/></l><r>थोड़ा<s n="adj"/></r></p></e>
      
       <!-- SECTION ADVERBS -->
+       <e><p><l>পিছনে<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
+       <e><p><l>তারপর<s n="adv"/></l><r>उसके<b/>बाद<s n="adv"/></r></p></e>
+      <e><p><l>এখন<s n="adv"/></l><r>अब<s n="adv"/></r></p></e>
       <e><p><l>কোথায়<s n="adv"/></l><r>कहाँ<s n="adv"/></r></p></e>
       <e><p><l>একসাথে<s n="adv"/></l><r>एक<b/>साथ<s n="adv"/></r></p></e>
       <e><p><l>খুব<s n="adv"/></l><r>बहुत<s n="adv"/></r></p></e>
@@ -147,6 +156,14 @@
 
       <!-- SECTION DETERMINERS -->
       <e><p><l>একটি<s n="det"/></l><r>एक<s n="det"/></r></p></e>
+      <e><p><l>তা<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
+      <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
+
+
+      <!-- needs gender -->
+      <e><p><l>তার<s n="det"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
+      <e><p><l>তাদের<s n="det"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
+      
 
       <!-- <e><p><l><s n=""/></l><r><s n=""/></r></p></e> -->
 
@@ -200,31 +217,45 @@
 
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
+    <!-- need to add gender in tlx -->
+    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e> 
+
 
 
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
+    <!-- need to add gender in tlx -->
+
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="gen"/></r></p></e>
 
 
     <!-- p2-fam -->
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>तुम<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+
+    <!-- need to add gender in tlx for the possessed noun-->
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <!-- p2 - infml -->
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>तू<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></r></p></e>
+    <!-- gender in tlx for the noun -->
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तू<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <!-- p2 - pol -->
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p2"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="pos"/></l><r>आप<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+
+    <!-- gender  -->
+    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
 
+
+    <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="nn" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
+
+
+    <e><p><l>কিছু<s n="prn" /></l><r>कुछ<s n="adv"/></r></p></e>    
     <!-- p3 is not well defined in hindi -->
 
     <!-- Need to work more on this -->
