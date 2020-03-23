@@ -4501,9 +4501,9 @@
       <e><p><l /><r><s n="det" /><s n="ind" /></r></p></e>    
     </pardef>
    
-    <pardef n="কি__det">    
-      <e><p><l/><r><s n="det"/><s n="itg"/><s n="sp"/></r></p></e>    
-      <e r="RL"><p><l/><r><s n="det"/><s n="itg"/><s n="sg"/></r></p></e>   
+    <pardef n="কি__det">		
+      <e><p><l/><r><s n="det"/><s n="itg"/><s n="sp"/></r></p></e>		
+      <e r="RL"><p><l/><r><s n="det"/><s n="itg"/><s n="sg"/></r></p></e>		
       <e r="RL"><p><l/><r><s n="det"/><s n="itg"/><s n="pl"/></r></p></e>    
     </pardef>
 
