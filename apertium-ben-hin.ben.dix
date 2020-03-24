@@ -27,8 +27,7 @@
     <sdef n="rec"          c="Reciprocal"/>    
     <sdef n="qnt"          c="Quentifier"/>    
     <sdef n="ind"          c="Indicative"/>
-    <!--will change this asap to itg -->    
-    <sdef n="int"          c="Interrogative"/>    
+    <sdef n="neg"          c="Negative"/>   
     <sdef n="itg"          c="Interrogative"/>    
     <sdef n="fam"          c="Familiar"/>    
     <sdef n="infml"        c="Informal"/>    
@@ -530,7 +529,7 @@
 
     <!--Pronouns -->    
     <pardef n="কী__prn">      
-      <e><p><l /><r><s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></r></p></e>    
+      <e><p><l /><r><s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></r></p></e>    
     </pardef>
     
     <pardef n="পরস্পর__prn">      
@@ -548,7 +547,7 @@
     </pardef>
     
     <pardef n="কিসের__prn">      
-      <e><p><l /><r><s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="gen" /></r></p></e>    
+      <e><p><l /><r><s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="gen" /></r></p></e>    
     </pardef>
     
     <pardef n="নিজে/রা__prn">      
@@ -587,8 +586,8 @@
     </pardef>
     
     <pardef n="ক/ি__prn">      
-      <e><p><l>ার</l><r>ি<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
-      <e><p><l>িসে</l><r>ি<s n="prn" /><s n="p3" /><s n="int" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="loc" /></r></p></e>    
+      <e><p><l>ার</l><r>ি<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
+      <e><p><l>িসে</l><r>ি<s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="loc" /></r></p></e>    
     </pardef>
     
     <pardef n="কিছুটা__prn">      
@@ -604,8 +603,8 @@
     </pardef>
     
     <pardef n="কা/রা__prn">      
-      <e><p><l>দের</l><r>রা<s n="prn" /><s n="p3" /><s n="int" /><s n="mf" /><s n="pl" /><s n="gen" /></r></p></e>      
-      <e><p><l>রা</l><r>রা<s n="prn" /><s n="p3" /><s n="int" /><s n="mf" /><s n="pl" /><s n="nom" /></r></p></e>    
+      <e><p><l>দের</l><r>রা<s n="prn" /><s n="p3" /><s n="itg" /><s n="mf" /><s n="pl" /><s n="gen" /></r></p></e>      
+      <e><p><l>রা</l><r>রা<s n="prn" /><s n="p3" /><s n="itg" /><s n="mf" /><s n="pl" /><s n="nom" /></r></p></e>    
     </pardef>
     
     <pardef n="কিছু__prn">      
@@ -734,9 +733,9 @@
       <e><p><l>ওগুলোর</l><r>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="nn" /><s n="mf" /><s n="pl" /><s n="gen" /></r></p></e>      
 
       <!-- p3.pol.aa.mf.sg -->
-      <e><p><l>তাঁর</l><r>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
-      <e><p><l>তিনি</l><r>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></r></p></e>      
-      <e><p><l>তাঁকে</l><r>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></r></p></e>      
+      <e><p><l>তাঁর</l><r>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
+      <e><p><l>তিনি</l><r>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></r></p></e>      
+      <e><p><l>তাঁকে</l><r>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></r></p></e>      
 
       <!-- p3.pol.aa.mf.pl -->
       <e><p><l>তাঁদের</l><r>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></r></p></e>      
@@ -758,8 +757,8 @@
     </pardef>
     
     <pardef n="ক/ে__prn">      
-      <e><p><l>ার</l><r>ে<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
-      <e><p><l>ে</l><r>ে<s n="prn" /><s n="p3" /><s n="int" /><s n="aa" /><s n="mf" /><s n="sp" /><s n="nom" /></r></p></e>    
+      <e><p><l>ার</l><r>ে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></r></p></e>      
+      <e><p><l>ে</l><r>ে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sp" /><s n="nom" /></r></p></e>    
     </pardef>
     
     <pardef n="স্বয়ং__prn">      
@@ -4484,7 +4483,7 @@
     <!--Determiners -->    
     <pardef n="এর__det">      
       <e><p><l /><r><s n="det" /><s n="gen" /></r></p></e> 
-      <e><p><l />া<r><s n="det" /><s n="pl"></r></p></e>
+
 
     </pardef>
     
@@ -4650,7 +4649,8 @@
     <e lm="গুরুতর"><i>গুরুতর</i><par n="টক__adj" /></e>    
     <e lm="বাস্তবায়িত"><i>বাস্তবায়িত</i><par n="টক__adj" /></e>    
     <e lm="প্রচলিত"><i>প্রচলিত</i><par n="টক__adj" /></e>    
-    <e lm="বাতিল"><i>বাতিল</i><par n="টক__adj" /></e>    
+    <e lm="বাতিল"><i>বাতিল</i><par n="টক__adj" /></e>
+    <e lm="খুশি"><i>খুশি</i><par n="টক__adj" /></e>    
     <e lm="বিশৃঙ্খল"><i>বিশৃঙ্খল</i><par n="টক__adj" /></e>    
     <e lm="পরের"><i>পরের</i><par n="টক__adj" /></e>    
     <e lm="বন্ধ"><i>বন্ধ</i><par n="টক__adj" /></e>    
@@ -10227,6 +10227,7 @@
     <e lm="ভার্সন"><i>ভার্সন</i><par n="ঝড়__n_nt"/></e>    
     <e lm="ভাটা"><i>ভাটা</i><par n="দশা__n_nt"/></e>
     <!--Postpositions -->    
+    <e lm="দিয়ে"><i>দিয়ে</i><par n="এর__post" /></e>
     <e lm="নীচে"><i>নীচে</i><par n="এর__post" /></e>
     <e lm="থেকে"><i>থেকে</i><par n="এর__post" /></e>    
     <e lm="পরে"><i>পরে</i><par n="এর__post" /></e>    
@@ -10278,6 +10279,8 @@
     <e lm="শুধুই"><i>শুধুই</i><par n="এর__post" /></e>    
     <e lm="চাইতে"><i>চাইতে</i><par n="এর__post" /></e>
     <!--Pronouns -->    
+    
+    <e lm="রয়েছে"><i>রয়েছে</i><par n="স্বয়ং__prn" /></e>
     <e lm="স্বয়ং"><i>স্বয়ং</i><par n="স্বয়ং__prn" /></e>    
     <e lm="অন্যটা"><i>অন্যটা</i><par n="অন্যটা__prn" /></e>    
     <e lm="অপর"><i>অপর</i><par n="অপর__prn" /></e>    
@@ -12104,6 +12107,7 @@
     <e lm="দে"><i>দ</i><par n="দ/ে__vblex" /></e> 
 
     <e lm="ওলটা"><i /><par n="/ওলটা__vblex" /></e>    
+    <e lm="গুন"><i>গুন</i><par n="গড়/__vblex" /></e>    
     <e lm="গড়"><i>গড়</i><par n="গড়/__vblex" /></e>    
     <e lm="লিখ"><i>লিখ</i><par n="গড়/__vblex" /></e>    
     <e lm="ভাব"><i>ভ</i><par n="ভ/াব__vblex" /></e>    
@@ -12115,7 +12119,7 @@
     <e lm="বল"><i>বল</i><par n="গড়/__vblex" /></e>    
     <e lm="শোনা"><i>শ</i><par n="শ/োনা__vblex" /></e>    
     <e lm="আছ"><i /><par n="/আছ__vblex" /></e>    
-    <e lm="নাড়া"><i>নাড়</i><par n="আগ/া__vblex" /></e>    
+    <e lm="নাড়া"><i>নাড়</i><par n="আগ/া__vblex" /></e>   
     <e lm="ভাঙ"><i>ভ</i><par n="ভ/াঙ__vblex" /></e>    
     <e lm="চুষ"><i>চুষ</i><par n="গড়/__vblex" /></e>    
     <e lm="চালা"><i>চাল</i><par n="আগ/া__vblex" /></e>    

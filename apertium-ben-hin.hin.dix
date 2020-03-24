@@ -38,7 +38,8 @@
     <sdef n="dist"     c="Distant"/>          
     <sdef n="aa"      c="Animate"/>
     <sdef n="nn"      c="Inanimate"/>       
-    <sdef n="itg"     c="Interrogative"/>     
+    <sdef n="itg"     c="Interrogative"/> 
+    <sdef n="neg"     c="Negative"/>    
 
     <sdef n="vbser"   c="Verb 'to be'"/>     
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>     
@@ -2133,7 +2134,7 @@
 	<e lm="हट"><i>हट</i><par n="चल__vblex_iv"/></e>
 	<e lm="हांफ"><i>हांफ</i><par n="चल__vblex_iv"/></e>
 	<e lm="हार"><i>हार</i><par n="चल__vblex_iv"/></e>
-    <e lm="कर"><i>क</i><par n="क/र__vblex_tv"/></e>
+  <e lm="कर"><i>क</i><par n="क/र__vblex_tv"/></e>
 	<e lm="रख"><i>रख</i><par n="बोल__vblex_tv"/></e>
 	<e lm="बढ"><i>बढ़</i><par n="बोल__vblex_tv"/></e>
 	<e lm="घूम"><i>घूम</i><par n="बोल__vblex_tv"/></e>

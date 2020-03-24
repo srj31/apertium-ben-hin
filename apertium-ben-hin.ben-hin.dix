@@ -116,7 +116,8 @@
       <!-- Gsoc2020 coding challenge -->
 
       <!-- SECTION ADJECTIVES -->
-      <e><p><l>খুব<s n="adj"/></l><r>बहुत<s n="adj"/></r></p></e>
+      <e><p><l>খুশি<s n="adj"/></l><r>खुश<s n="adj"/></r></p></e>
+      <e><p><l>সর্বদা<s n="adv"/></l><r>हमेशा<s n="adj"/></r></p></e>
       <e><p><l>সুন্দর<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e> 
       <e><p><l>গরম<s n="adj"/></l><r>गर्म<s n="adj"/></r></p></e> 
       <e><p><l>ঠান্ডা<s n="adj"/></l><r>ठंड<s n="adj"/></r></p></e>
@@ -132,10 +133,12 @@
       <e><p><l>একটু<s n="adj"/></l><r>थोड़ा<s n="adj"/></r></p></e>
      
       <!-- SECTION ADVERBS -->
-       <e><p><l>পিছনে<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
-       <e><p><l>তারপর<s n="adv"/></l><r>उसके<b/>बाद<s n="adv"/></r></p></e>
+      <e><p><l>কেন<s n="adv"/></l><r>क्यों<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>এমন<s n="adv"/></l><r>ऐसा<s n="det"/></r></p></e>
+      <e><p><l>পিছনে<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
+      <e><p><l>তারপর<s n="adv"/></l><r>उसके<b/>बाद<s n="adv"/></r></p></e>
       <e><p><l>এখন<s n="adv"/></l><r>अब<s n="adv"/></r></p></e>
-      <e><p><l>কোথায়<s n="adv"/></l><r>कहाँ<s n="adv"/></r></p></e>
+      <e><p><l>কোথায়<s n="adv"/></l><r>कहाँ<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>একসাথে<s n="adv"/></l><r>एक<b/>साथ<s n="adv"/></r></p></e>
       <e><p><l>খুব<s n="adv"/></l><r>बहुत<s n="adv"/></r></p></e>
       <e><p><l>তখন<s n="adv"/></l><r>तब<s n="adv"/></r></p></e>
@@ -152,10 +155,13 @@
       <e><p><l>এবং<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
       <e><p><l>বা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
       <e><p><l>কিন্তু<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
+      <e><p><l>তবে<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
       
 
       <!-- SECTION DETERMINERS -->
+      <e><p><l>রয়েছে<s n="det"/></l><r>हो<s n="det"/></r></p></e>
       <e><p><l>একটি<s n="det"/></l><r>एक<s n="det"/></r></p></e>
+      <e><p><l>কি<s n="det"/></l><r>क्या<s n="prn"/></r></p></e>
       <e><p><l>তা<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
       <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
 
@@ -168,8 +174,10 @@
       <!-- <e><p><l><s n=""/></l><r><s n=""/></r></p></e> -->
 
       <!-- SECTION: Nouns -->
-      <e><p><l>সময়<s n="n"/><s n="mf"/><s n="nt"/></l><r>समय<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>বয়স<s n="n"/><s n="mf"/><s n="nt"/></l><r>समय<s n="n"/><s n="f"/></r></p></e>
+
+    <!-- negation markers are missing in bengali-->
+      <e><p><l>সময়<s n="n"/><s n="mf"/><s n="nn"/></l><r>समय<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>বয়স<s n="n"/><s n="mf"/><s n="nn"/></l><r>साल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>মা<s n="n"/><s n="f"/><s n="hu"/></l><r>मां<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>বছর<s n="n"/><s n="nt"/><s n="nn"/></l><r>साल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>দিক<s n="n"/><s n="mf"/><s n="nn"/></l><r>दिशा<s n="n"/><s n="f"/>></r></p></e>
@@ -182,10 +190,11 @@
     <e><p><l>গতকাল<s n="n"/><s n="nt"/><s n="nn"/></l><r>कल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>বাড়ি<s n="n"/><s n="nt"/><s n="nn"/></l><r>घर<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ছেলে<s n="n"/><s n="mf"/><s n="hu"/></l><r>लड़का<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>মেয়<s n="n"/><s n="f"/><s n="hu"/></l><r>लड़की<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>মেয়ে<s n="n"/><s n="f"/><s n="hu"/></l><r>लड़की<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>বোন<s n="n"/><s n="f"/><s n="hu"/></l><r>बहन<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>পাঁচ<s n="num"/><s n="an"/></l><r>पांच<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>কুকুর<s n="n"/><s n="mf"/><s n="aa"/></l><r>कुत्ता<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>কুকুরও<s n="adv"/></l><r>कुत्ता<b/>s<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>সন্তান<s n="n"/><s n="mf"/><s n="hu"/></l><r>बच्चा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>বিড়াল<s n="n"/><s n="mf"/><s n="aa"/></l><r>बिल्ली<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>জানালা<s n="n"/><s n="nt"/><s n="nn"/></l><r>खिड़की<s n="n"/><s n="f"/></r></p></e>
@@ -206,8 +215,8 @@
 
     <!-- SECTION POSTPOSITION -->
 
-    <e><p><l>সামনে<s n="post"/></l><r>सामने<s n="post"/></r></p></e>
-    <e><p><l>সামনের<s n="post"/></l><r>के<b/>सामने<s n="post"/></r></p></e>
+    <e><p><l>সামনে<s n="adj"/></l><r>सामने<s n="post"/></r></p></e>
+    <e><p><l>সামনের<s n="adj"/></l><r>के<b/>सामने<s n="post"/></r></p></e>
     <e><p><l>সাথে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>    
     <e><p><l>দিয়ে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>
     <e><p><l>নীচে<s n="post"/></l><r>नीचे<s n="post"/></r></p></e>
@@ -250,8 +259,9 @@
     <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
-
-
+    <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
     <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="nn" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
@@ -263,9 +273,16 @@
      <!-- <e><p><l>সামনে<s n="post"/></l><r>सामने<s n="post"/></r></p></e> -->
 
     <!-- SECTION VERBS -->
+      <e><p><l>পা<s n="vblex"/></l><r>पा<s n="vblex"/></r></p></e>
+      <e><p><l>যা<s n="vblex"/></l><r>जा<s n="vblex"/></r></p></e>
+      <e><p><l>ছুট<s n="vblex"/></l><r>कर<s n="vaux"/></r></p></e>
+      <e><p><l>পার<s n="vblex"/></l><r>कर<s n="vaux"/></r></p></e>
+      <e><p><l>কর<s n="vblex"/></l><r>कर<s n="vaux"/></r></p></e>
+      <e><p><l>পার<s n="vblex"/></l><r>सक<s n="vaux"/></r></p></e>
+      <e><p><l>আছ<s n="vblex"/></l><r>हो<s n="vbser"/></r></p></e>
       <e><p><l>খেল<s n="vblex"/></l><r>खेल<s n="vblex"/></r></p></e>
       <e><p><l>পছন্দ<s n="vblex"/></l><r>पसंद<s n="vblex"/></r></p></e>
-      <e><p><l>ঘুম<s n="vblex"/></l><r>सोना<s n="vblex"/></r></p></e>
+      <e><p><l>ঘুমা<s n="vblex"/></l><r>सोना<s n="vblex"/></r></p></e>
       <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
       <e><p><l>দৌড়<s n="vblex"/></l><r>दौड़<s n="vblex"/></r></p></e>
       <e><p><l>লুকা<s n="vblex"/></l><r>छिप<s n="vblex"/></r></p></e> 
@@ -334,6 +351,7 @@
     <e><p><l>রোগ<s n="n"/><s n="mf"/><s n="nn"/></l><r>रोग<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>নাইট্রোজেন<s n="n"/><s n="mf"/><s n="nn"/></l><r>नाइट्रोजन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>পর্বত<s n="n"/><s n="mf"/><s n="nn"/></l><r>पर्वत<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>দুই<s n="n"/><s n="nt"/><s n="nn"/></l><r>दो<s n="num"/></r></p></e>
     <e><p><l>বীজ<s n="n"/><s n="nt"/><s n="nn"/></l><r>बीज<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>রেল<s n="n"/><s n="mf"/><s n="nn"/></l><r>रेलगाडी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>মাতা<s n="n"/><s n="f"/><s n="el"/></l><r>माता<s n="n"/><s n="f"/></r></p></e>
