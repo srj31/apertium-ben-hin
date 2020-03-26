@@ -42,6 +42,10 @@
       <attr-item tags="adj"/>
       <attr-item tags="adj.pos"/>
     </def-attr>
+    <def-attr n="transivity">
+      <attr-item tags="tv"/>
+      <attr-item tags="iv"/>
+    </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -57,6 +61,9 @@
       <attr-item tags="nt"/>
     </def-attr>
     
+    <def-attr n="a_neg">
+      <attr-item tags="neg"/>
+    </def-attr>
     <def-attr n="a_n">
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
@@ -66,10 +73,12 @@
       <attr-item tags="nom"/>
       <attr-item tags="dat"/>
       <attr-item tags="loc"/>
+      <attr-item tags="gen"/>
     </def-attr>
 
     <def-attr n="a_verb">
        <attr-item tags="vblex"/>
+       <attr-item tags="vaux"/>
        <attr-item tags="vbser"/>
     </def-attr>
 
@@ -524,18 +533,42 @@
               <call-macro n="verb_init">
                   <with-param pos="1" />
               </call-macro>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_neg"/>
+                    <lit-tag v="neg"/>
+                  </equal>
+                </test>
+                <out>
+                  <chunk name="neg">
+                    <tags>
+                      <tag><lit-tag v="neg"/></tag>
+                    </tags>
+                  <lu>
+                  <lit v="नहीं"/>
+                  <lit-tag v="adv"/>
+                </lu>
+                <b/>
+                </chunk>
+                </out>
+              </when>
+          </choose>
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="VP"/></tag>
+              <tag><lit-tag v="VP pres"/></tag>
               <tag><var n="genvar"/></tag>
               <tag><var n="nbrvar"/></tag>
             </tags>
-
+            <b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="transivity"/>
               <lit-tag v="pres"/>
+              <clip pos="1" side="tl" part="a_cntverb"/>
               <var n= "persvar"/>
               <var n="genvar"/>
               <var n="nbrvar"/>
@@ -557,7 +590,7 @@
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="VP"/></tag>
+              <tag><lit-tag v="VP past"/></tag>
               <tag><var n="genvar"/></tag>
               <tag><var n="nbrvar"/></tag>
             </tags>
