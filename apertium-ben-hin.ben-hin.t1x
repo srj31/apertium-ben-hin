@@ -47,6 +47,9 @@
       <attr-item tags="pl"/>
     </def-attr>
 
+    <def-attr n="a_cntverb">
+      <attr-item tags="cnt"/>
+    </def-attr>
     <def-attr n ="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
@@ -82,6 +85,7 @@
   </section-def-attrs>
 
   <section-def-vars>
+    <def-var n="tvvar"/>
     <def-var n="nbrvar"/>
     <def-var n="persvar"/>
     <def-var n="casevar"/>
@@ -314,11 +318,19 @@
               <var n ="persvar"/>
               <clip part="pers" pos="1" side="tl"/>
         </let>
+        <let>
+              <var n="tvvar"/>
+              <lit-tag v="tv"/>
+        </let>
         </when>
         <otherwise>
           <let>
               <var n ="persvar"/>
               <lit-tag v="p3"/>
+          </let>
+          <let>
+              <var n="tvvar"/>
+              <lit-tag v="iv"/>
           </let>
         </otherwise>
       </choose>
@@ -553,7 +565,9 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="tv"/>
               <lit-tag v="past"/>
+              <clip pos="1" side="tl" part="a_cntverb"/>
               <var n= "persvar"/>
               <var n="genvar"/>
               <var n="nbrvar"/>

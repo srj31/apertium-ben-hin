@@ -41,7 +41,8 @@
     <sdef n="itg"     c="Interrogative"/> 
     <sdef n="neg"     c="Negative"/>    
 
-    <sdef n="vbser"   c="Verb 'to be'"/>     
+    <sdef n="vbser"   c="Verb 'to be'"/>  
+    <sdef n="cnt"     c="Continuous"/>   
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>     
     <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>        
     <sdef n="cnjadv"  c="adverbial conjunction"/>              
@@ -675,8 +676,10 @@
 
 
    <pardef n="बोल__vblex_tv">
+       <e>       <p><l>रहा<b/>था</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="cnt"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l></l><r><s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
-      <e>       <p><l>ूँगा</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ूँगा</l><r><s n="vblex"/>
+      <s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ेंगे</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>ूँगी</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ेंगी</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
@@ -860,7 +863,7 @@
 	</pardef>
 
 	<pardef n="बता__vblex_tv">
-      <e>       <p><l>रहा<b/>था</l><r><s n="vblex"/><s n="past"/><s n="cont"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+
       <e>       <p><l>ऊँगा</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>येंगे</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR">       <p><l>एँगे</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1260,7 +1263,7 @@
       <e>       <p><l>हो</l><r>हो<s n="vbser"/><s n="pres"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-       <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"><s n="m"/><s n="sg"/></r></p></e>
+       <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
