@@ -120,7 +120,7 @@
       <e><p><l>সর্বদা<s n="adv"/></l><r>हमेशा<s n="adj"/></r></p></e>
       <e><p><l>সুন্দর<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e> 
       <e><p><l>গরম<s n="adj"/></l><r>गर्म<s n="adj"/></r></p></e> 
-      <e><p><l>ঠান্ডা<s n="adj"/></l><r>ठंड<s n="adj"/></r></p></e>
+      <e><p><l>ঠান্ডা<s n="adj"/></l><r>ठंडा<s n="adj"/></r></p></e>
       <e><p><l>বড়<s n="adj"/></l><r>बड़े<s n="adj"/></r></p></e>
       <e><p><l>ছোট<s n="adj"/></l><r>छोटा<s n="adj"/></r></p></e>
       <e><p><l>ছোট<s n="adj"/></l><r>छोटी<s n="adj"/></r></p></e>
@@ -159,7 +159,7 @@
       
 
       <!-- SECTION DETERMINERS -->
-      <e><p><l>রয়েছে<s n="det"/></l><r>हो<s n="det"/></r></p></e>
+      <e><p><l>রয়েছে<s n="det"/></l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>একটি<s n="det"/></l><r>एक<s n="det"/></r></p></e>
       <e><p><l>কি<s n="det"/></l><r>क्या<s n="prn"/></r></p></e>
       <e><p><l>তা<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
@@ -301,7 +301,7 @@
       <e><p><l>খুঁজ<s n="vblex"/></l><r>खोज<s n="vblex"/></r></p></e>
       <e><p><l>জিজ্ঞাসা<b/>কর<s n="vblex"/></l><r>पूछ<s n="vblex"/></r></p></e>
       <e><p><l>বল<s n="vblex"/></l><r>बता<s n="vblex"/></r></p></e>
-      <e><p><l>লাগ<s n="vblex"/></l><r>लगा<s n="vblex"/></r></p></e>
+      <e><p><l>লাগ<s n="vblex"/></l><r>लग<s n="vblex"/></r></p></e>
 <!--     <e><p><l><s n=""/></l><r><s n=""/></r></p></e>
  -->    
 
