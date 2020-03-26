@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
   <section-def-cats>
-    <def-cat n="nnp_nom">
+
+    <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+
     <def-cat n="adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
     </def-cat>
+
     <def-cat n="genitive">
       <cat-item tags="gen"/>
     </def-cat>
+
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
+    </def-cat>
+
+    <def-cat n="present">
+      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vblex.prft.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -26,7 +37,7 @@
       <attr-item tags="pl"/>
     </def-attr>
 
-    <def-attr n ="gender">
+    <def-attr n ="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="mf"/>
@@ -38,12 +49,15 @@
       <attr-item tags="np.ant"/>
     </def-attr>
 
-    <def-attr n="a_nom">
+    <def-attr n="case">
       <attr-item tags="nom"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="loc"/>
     </def-attr>
 
     <def-attr n="a_verb">
        <attr-item tags="vblex"/>
+       <attr-item tags="vbser"/>
     </def-attr>
 
     <def-attr n="temps">
@@ -52,26 +66,252 @@
 
     <def-attr n="pers">
        <attr-item tags="p1"/>
+       <attr-item tags="p2"/>
+       <attr-item tags="p3"/>
     </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
-    <def-var n="number"/>
+    <def-var n="nbrvar"/>
+    <def-var n="persvar"/>
+    <def-var n="casevar"/>
+    <def-var n="genvar"/>
   </section-def-vars>
 
   <section-def-macros>
-    <def-macro n="test" npar="1">
+    <def-macro n="verb_init" npar="1">
+
+      <!-- checking for the number in verb i.e. sg/pl -->
+      <choose>
+        <when>
+          <test>
+            <or>
+                  <equal>
+                    <clip part="nbr" pos="1" side="tl"/>
+                    <lit-tag v="sg"/>
+                  </equal>
+                  <equal>
+                    <clip part="nbr" pos="1" side="tl"/>
+                    <lit-tag v="pl"/>
+                  </equal>
+                  <equal>
+                    <clip part="nbr" pos="1" side="tl"/>
+                    <lit-tag v="sp"/>
+                  </equal>
+            </or>
+        </test>
+            <let>
+                  <var n ="nbrvar"/>
+                        <clip part="nbr" pos="1" side="tl"/>
+            </let>
+        </when>
+  <otherwise>
           <let>
-            <var n="number"/>
-            <lit v=""/>
+        <var n ="nbrvar"/>
+              <lit-tag v="sg"/>
           </let>
+  </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="m"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="f"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="mf"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="nt"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="genvar"/>
+              <clip part="gen" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="genvar"/>
+              <lit-tag v="mf"/>
+          </let>
+        </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p1"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p2"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p3"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="PD"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="persvar"/>
+              <clip part="pers" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="persvar"/>
+              <lit-tag v="p3"/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="noun_init" npar="1">
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="sg"/>
+            </equal>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="pl"/>
+            </equal>
+            <equal>
+              <clip part="nbr" pos="1" side="tl"/>
+              <lit-tag v="sp"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="nbrvar"/>
+              <clip part="nbr" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="nbrvar"/>
+              <lit-tag v="sg"/>
+          </let>
+        </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="m"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="f"/>
+            </equal>
+            <equal>
+              <clip part="gen" pos="1" side="tl"/>
+              <lit-tag v="nt"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="genvar"/>
+              <clip part="gen" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="genvar"/>
+              <lit-tag v="m"/>
+          </let>
+        </otherwise>
+      </choose>
+
+      <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p1"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p2"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="p3"/>
+            </equal>
+            <equal>
+              <clip part="pers" pos="1" side="tl"/>
+              <lit-tag v="PD"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="persvar"/>
+              <clip part="pers" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="persvar"/>
+              <lit-tag v="p3"/>
+          </let>
+        </otherwise>
+      </choose>
+
+      <!-- <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="case" pos="1" side="tl"/>
+              <lit-tag v="d"/>
+            </equal>
+            <equal>
+              <clip part="case" pos="1" side="tl"/>
+              <lit-tag v="o"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n ="casevar"/>
+              <clip part="case" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n ="casevar"/>
+              <lit-tag v="d"/>
+          </let>
+        </otherwise>
+      </choose> -->
     </def-macro>
   </section-def-macros>
 
   <section-rules>
     <rule comment="REGLA: NOM">
       <pattern>
-        <pattern-item n="nnp_nom" />
+        <pattern-item n="nom" />
       </pattern>
       <action>
         
@@ -79,21 +319,82 @@
           <chunk name="nom">
             <tags>
               <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="gender"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
              </tags>
             <lu>
                 <clip pos="1" side="tl" part="lem"/>
                 <clip pos="1" side="tl" part="a_n"/>
-                <clip pos="1" side="tl" part="gender"/>
+                <clip pos="1" side="tl" part="gen"/>
                 <clip pos="1" side="tl" part="nbr"/>
-                <clip pos="1" side="tl" part="a_nom"/>
+                <clip pos="1" side="tl" part="case"/>
             </lu>
           </chunk>
         </out>
 
       </action>
     </rule>
+<!-- working on transfer rules for vblex -->
+    <rule comment="REGLA: VBLEX">
+      <pattern>
+        <pattern-item n="present"/>
+      </pattern>
+      <action>
+              <call-macro n="verb_init">
+                  <with-param pos="1" />
+              </call-macro>
+        <out>
+          <chunk name="verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="VP"/></tag>
+              <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+            </tags>
+
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="pres"/>
+              <var n= "persvar"/>
+              <var n="genvar"/>
+              <var n="nbrvar"/>
+              <!-- <clip pos="1" side="tl" part="persvar"/> -->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: VBLEX past">
+      <pattern>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+              <call-macro n="verb_init">
+                  <with-param pos="1" />
+              </call-macro>
+        <out>
+          <chunk name="verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="VP"/></tag>
+              <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+            </tags>
+
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="past"/>
+              <var n= "persvar"/>
+              <var n="genvar"/>
+              <var n="nbrvar"/>
+              <!-- <clip pos="1" side="tl" part="persvar"/> -->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SENT">
       <pattern>
