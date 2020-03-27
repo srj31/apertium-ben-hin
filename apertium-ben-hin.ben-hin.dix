@@ -156,11 +156,13 @@
       <e><p><l>নেই<s n="adv"/></l><r>नहीं<s n="adv"/></r></p></e>
       <e><p><l>কাছে<s n="adv"/></l><r>पास<s n="adv"/></r></p></e>
       <e><p><l>আজ<s n="adv"/></l><r>आज<s n="adv"/></r></p></e>
+      <e><p><l>সুতরাং<s n="adv"/></l><r>इसलिए<s n="cnjadv"/></r></p></e>
       <e><p><l>সবদিকে<s n="adv"/></l><r>हर<b/>ओर<s n="adj"/></r></p></e>
       <!-- SECTION CONJUNCTION -->
 
       
-      <e ><p><l>আর<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
+      <e ><p><l>অন্য<s n="cnjcoo"/></l><r>अन्य<s n="cnjcoo"/></r></p></e>
+      <e ><p><l>আর<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>  
       <e><p><l>এবং<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
       <e><p><l>বা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
       <e><p><l>কিন্তু<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
