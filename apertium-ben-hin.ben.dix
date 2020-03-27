@@ -119,7 +119,10 @@
       <e><p><l /><r><s n="adv" /></r></p></e>    
     </pardef>
 
-    <!--Nouns -->    
+    <!--Nouns -->   
+    <pardef n="কুকুরটিও__n_nt">
+      <e><p><l></l><r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></r></p></e> 
+    </pardef> 
     <pardef n="বই__n_nt">      
       <e><p><l /><r><s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></r></p><par n="enclitic" /></e>      
       <e><p><l>গুলো</l><r><s n="n" /><s n="nt" /><s n="nn" /><s n="pl" /><s n="nom" /></r></p><par n="enclitic" /></e>      
@@ -912,6 +915,7 @@
 
     <!--Verbs -->    
     <pardef n="আগ/া__vblex">      
+    <e><p><l>িয়ে</l><r>া<s n="vblex" /><s n="pres" /><s n="cnt" /><s n="p3" /></r></p><par n="enclitic" /></e> 
       <e><p><l>াচ্ছিলাম</l><r>া<s n="vblex" /><s n="past" /><s n="cnt" /><s n="p1" /></r></p><par n="enclitic" /></e>      
       <e><p><l>াচ্ছিল</l><r>া<s n="vblex" /><s n="past" /><s n="cnt" /><s n="p3" /><s n="infml" /></r></p><par n="enclitic" /></e>      
       <e><p><l>ালে</l><r>া<s n="vblex" /><s n="pcnd" /></r></p><par n="enclitic" /></e>      
@@ -1997,7 +2001,7 @@
       <e><p><l>আছেন</l><r>আছ<s n="vblex" /><s n="prft" /><s n="p2" /><s n="pol" /></r></p><par n="enclitic" /></e>      
       <e><p><l>থাকবে</l><r>আছ<s n="vblex" /><s n="ft" /><s n="smpl" /><s n="p2" /><s n="fam" /></r></p><par n="enclitic" /></e>      
       <e><p><l>থাকল</l><r>আছ<s n="vblex" /><s n="past" /><s n="smpl" /><s n="p3" /><s n="infml" /></r></p><par n="enclitic" /></e>      
-      <e><p><l>থেকে</l><r>আছ<s n="vblex" /><s n="ppst" /></r></p><par n="enclitic" /></e>      
+     <!--  <e><p><l>থেকে</l><r>আছ<s n="vblex" /><s n="ppst" /></r></p><par n="enclitic" /></e>    -->   
       <e><p><l>থাকবে</l><r>আছ<s n="vblex" /><s n="ft" /><s n="imp" /><s n="p3" /><s n="infml" /></r></p><par n="enclitic" /></e>      
       <e><p><l>থাকবে</l><r>আছ<s n="vblex" /><s n="ft" /><s n="smpl" /><s n="impers" /></r></p><par n="enclitic" /></e>      
       <e><p><l>থেকো</l><r>আছ<s n="vblex" /><s n="ft" /><s n="imp" /><s n="p2" /><s n="fam" /></r></p><par n="enclitic" /></e>      
@@ -4367,7 +4371,9 @@
       <e><p><l>ানবি</l><r>ান<s n="vblex" /><s n="ft" /><s n="smpl" /><s n="p2" /><s n="infml" /></r></p><par n="enclitic" /></e>      
       <e><p><l>ানুক</l><r>ান<s n="vblex" /><s n="ft" /><s n="imp" /><s n="p2" /><s n="pol" /></r></p><par n="enclitic" /></e>      
       <e><p><l>েনেছিলেন</l><r>ান<s n="vblex" /><s n="plprft" /><s n="p3" /><s n="pol" /></r></p><par n="enclitic" /></e>      
-      <e><p><l>ানে</l><r>ান<s n="vblex" /><s n="pres" /><s n="smpl" /><s n="impers" /></r></p><par n="enclitic" /></e>      
+      <e><p><l>ানে</l><r>ান<s n="vblex" /><s n="pres" /><s n="smpl" /><s n="impers" /></r></p><par n="enclitic" /></e>   
+      <e><p><l>ানো</l><r>ান<s n="vblex" /><s n="pres" /><s n="smpl" /><s n="impers" /></r></p><par n="enclitic" /></e>      
+
       <e><p><l>ানছে</l><r>ান<s n="vblex" /><s n="pres" /><s n="cnt" /><s n="impers" /></r></p><par n="enclitic" /></e>      
       <e><p><l>ানলাম</l><r>ান<s n="vblex" /><s n="past" /><s n="smpl" /><s n="p1" /></r></p><par n="enclitic" /></e>      
       <e><p><l>ানুন</l><r>ান<s n="vblex" /><s n="pres" /><s n="imp" /><s n="p2" /><s n="fam" /></r></p><par n="enclitic" /></e>      
@@ -4501,7 +4507,7 @@
     </pardef>
     
     <pardef n="উভয়__det">      
-      <e><p><l /><r><s n="det" /><s n="ind" /><s n="sg"></r></p></e>    
+      <e><p><l /><r><s n="det" /><s n="ind" /><s n="sg"/></r></p></e>    
     </pardef>
    
     <pardef n="কি__det">    
@@ -4516,7 +4522,7 @@
     </pardef>
     
     <pardef n="এক__num">      
-      <e><p><l /><r><s n="num" /><s n="an" /></r></p></e>      
+      <e><p><l /><r><s n="num" /></r></p></e>      
       <e r="LR"><p><l>টা</l><r><s n="num" /><s n="an" /></r></p></e>      
       <e><p><l>টি</l><r><s n="num" /><s n="an" /></r></p></e>      
       <e r="LR"><p><l>টা</l><r><s n="num" /><s n="nn" /></r></p></e>      
@@ -4545,7 +4551,8 @@
     <e lm="ছেলে"><i>ছেলে</i><par n="ওসি__n_mf" /></e> 
     <e lm="মেয়"><i>মেয়</i><par n="বোন__n_f" /></e>
     <e lm="বোন"><i>বোন</i><par n="বোন__n_f" /></e>  
-    <e lm="কুকুর"><i>কুকুর</i><par n="দল__n_mf"/></e>  
+    <e lm="কুকুর"><i>কুকুর</i><par n="দল__n_mf"/></e>
+    <e lm="কুকুরটিও"><i>কুকুরটিও</i><par n="কুকুরটিও__n_nt"/></e>    
     <e lm="সন্তান"><i>সন্তান</i><par n="জজ__n_mf" /></e>
     <e lm="বিড়াল"><i>বিড়াল</i><par n="দল__n_mf" /></e>
     <e lm="জানালা"><i>জানালা</i><par n="দশা__n_nt" /></e> 
@@ -4610,7 +4617,7 @@
     <e lm="বাহ্যিক"><i>বাহ্যিক</i><par n="টক__adj" /></e>    
     <e lm="বার্ষিক"><i>বার্ষিক</i><par n="টক__adj" /></e>    
     <e lm="ক্ষুদ্র"><i>ক্ষুদ্র</i><par n="ঘন__adj" /></e>    
-    <e lm="সামনের"><i>সামনের</i><par n="টক__adj" /></e>    
+    <e lm="সামনের"><i>সামনের</i><par n="এর__post" /></e>    
     <e lm="শীতল"><i>শীতল</i><par n="টক__adj" /></e>    
     <e lm="শীর্ষক"><i>শীর্ষক</i><par n="টক__adj" /></e>    
     <e lm="উত্তম"><i>উত্তম</i><par n="টক__adj" /></e>    
@@ -5274,6 +5281,7 @@
     <e lm="সম্পৃক্ত"><i>সম্পৃক্ত</i><par n="টক__adj" /></e>    
     <e lm="বিচ্ছিন্ন"><i>বিচ্ছিন্ন</i><par n="টক__adj" /></e>    
     <e lm="সামনে"><i>সামনে</i><par n="টক__adj" /></e>    
+    <e lm="সামনে"><i>সামনে</i><par n="ও__adv" /></e> 
     <e lm="ব্যবহৃত"><i>ব্যবহৃত</i><par n="টক__adj" /></e>    
     <e lm="র্যালি"><i>র্যালি</i><par n="টক__adj" /></e>    
     <e lm="মজার"><i>মজার</i><par n="টক__adj" /></e>    
@@ -6376,7 +6384,8 @@
     <e lm="দক্ষিণ"><i>দক্ষিণ</i><par n="ও__adv" /></e>    
     <e lm="দর্শনশাস্ত্রানুযায়ী"><i>দর্শনশাস্ত্রানুযায়ী</i><par n="ও__adv" /></e>    
     <e lm="দুঃখিত"><i>দুঃখিত</i><par n="ও__adv" /></e>    
-    <e lm="দুইবার"><i>দুইবার</i><par n="ও__adv" /></e>    
+    <e lm="দুইবার"><i>দুইবার</i><par n="ও__adv" /></e> 
+    <e lm="দুই"><i>দুই</i><par n="টক__adj" /></e>       
     <e lm="দুবার"><i>দুবার</i><par n="ও__adv" /></e>    
     <e lm="দুর্ভাগ্যবশত"><i>দুর্ভাগ্যবশত</i><par n="ও__adv" /></e>    
     <e lm="দূরে"><i>দূরে</i><par n="ও__adv" /></e>    
@@ -7485,7 +7494,8 @@
     <e lm="গরু"><i>গরু</i><par n="গরু__n_mf" /></e>    
     <e lm="শাড়ি"><i>শাড়ি</i><par n="মে__n_mf" /></e>    
     <e lm="বৃষ্টি"><i>বৃষ্টি</i><par n="সি__n_nt" /></e>    
-    <e lm="চারপাশ"><i>চারপাশ</i><par n="ঝড়__n_nt" /></e>    
+    <e lm="চারপাশ"><i>চারপাশ</i><par n="ঝড়__n_nt" /></e>
+    <e lm="চারপাশে"><i>চারপাশে</i><par n="ও__adv" /></e>    
     <e lm="সাবান"><i>সাবান</i><par n="ঝড়__n_nt" /></e>    
     <e lm="দরজা"><i>দরজা</i><par n="দশা__n_nt" /></e>    
     <e lm="মেঘ"><i>মেঘ</i><par n="ঝড়__n_nt" /></e>    
@@ -12156,7 +12166,8 @@
     <e lm="ভাস"><i>ভ</i><par n="ভ/াস__vblex" /></e>    
     <e lm="কিন"><i>কিন</i><par n="গড়/__vblex" /></e>    
     <e lm="ঝোলা"><i>ঝ</i><par n="দ/োলা__vblex" /></e>    
-    <e lm="দৌড়া"><i>দৌড়</i><par n="আগ/া__vblex" /></e>    
+    <e lm="দৌড়া"><i>দৌড়</i><par n="আগ/া__vblex" /></e> 
+    <e lm="দৌড়"><i>দৌড়</i><par n="গড়/__vblex"/></e>  
     <e lm="কাটা"><i>কাট</i><par n="আগ/া__vblex" /></e>    
     <e lm="চা"><i>চ</i><par n="খ/া__vblex" /></e>    
     <e lm="কর"><i>কর</i><par n="গড়/__vblex" /></e>    
