@@ -29,6 +29,15 @@
       <cat-item tags="vblex.*"/>
     </def-cat>
 
+    <def-cat n="ppst">
+      <cat-item tags="vbser.ppst"/>
+    </def-cat>
+    <def-cat n="pcnd">
+      <cat-item tags="vblex.pcnd"/>
+    </def-cat>
+    <def-cat n="past">
+      <cat-item tags="vblex.past"/>
+    </def-cat>
     <def-cat n="present">
       <cat-item tags="vblex.pres"/>
       <cat-item tags="vblex.pres.*"/>
@@ -74,6 +83,8 @@
       <attr-item tags="dat"/>
       <attr-item tags="loc"/>
       <attr-item tags="gen"/>
+      <attr-item tags="obj"/>
+      <attr-item tags="obl"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -579,7 +590,30 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: VBLEX past">
+
+    <rule comment="vblex pcnd in bengali">
+      <pattern>
+        <pattern-item n="pcnd"/>
+      </pattern>
+      <action>
+      <out>
+        <chunk name="verb pcnd" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="VP pcnd"/></tag>
+          </tags>
+     
+        <lu>
+           <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="pcnd"/>
+        </lu>
+           </chunk>
+      </out>
+    </action>
+    </rule>
+
+
+    <rule comment="REGLA: VBLEX ">
       <pattern>
         <pattern-item n="vblex"/>
       </pattern>
@@ -598,7 +632,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <lit-tag v="tv"/>
+              <var n="tvvar"/>
               <lit-tag v="past"/>
               <clip pos="1" side="tl" part="a_cntverb"/>
               <var n= "persvar"/>
@@ -610,7 +644,33 @@
         </out>
       </action>
     </rule>
+   <!--  <rule comment="REGLA: VBLEX ppst">
+      <pattern>
+        <pattern-item n="ppst"/>
+      </pattern>
+      <action>
+              <call-macro n="verb_init">
+                  <with-param pos="1" />
+              </call-macro>
+        <out>
+          <chunk name="verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="VP ppst"/></tag>
+              <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+            </tags>
 
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="ppst"/>
+              <clip pos="1" side="tl" part="persvar"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+ -->
 
     <rule comment="REGLA: SENT">
       <pattern>

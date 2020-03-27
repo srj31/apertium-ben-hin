@@ -21,6 +21,8 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
 
+    <sdef n="pcnd"            c=""/>
+    <sdef n="ppst"             c=""/>
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
     <sdef n="ant"             c="Anthroponym"/>
@@ -276,17 +278,20 @@
      <!-- <e><p><l>সামনে<s n="post"/></l><r>सामने<s n="post"/></r></p></e> -->
 
     <!-- SECTION VERBS -->
+      <e><p><l>জান<s n="vblex"/></l><r>जान<s n="vblex"/></r></p></e>
       <e><p><l>পা<s n="vblex"/></l><r>पा<s n="vblex"/></r></p></e>
       <e><p><l>যা<s n="vblex"/></l><r>जा<s n="vblex"/></r></p></e>
       <e><p><l>ছুট<s n="vblex"/></l><r>कर<s n="vaux"/></r></p></e>
       <e><p><l>কর<s n="vblex"/></l><r>कर<s n="vaux"/></r></p></e>
       <e><p><l>পার<s n="vblex"/></l><r>सक<s n="vaux"/></r></p></e>
       <e><p><l>আছ<s n="vblex"/></l><r>हो<s n="vbser"/></r></p></e>
+      <e><p><l>থেকে<s n="post"/></l><r>से<s n="post"/></r></p></e>
       <e><p><l>খেল<s n="vblex"/></l><r>खेल<s n="vblex"/></r></p></e>
       <e><p><l>পছন্দ<s n="vblex"/></l><r>पसंद<b/>हो<s n="vbser"/></r></p></e>
       <e><p><l>ঘুমা<s n="vblex"/></l><r>सो<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
-      <e><p><l>দৌড়<s n="vblex"/></l><r>दौड़<s n="vblex"/></r></p></e>
+      <e><p><l>দৌড়<s n="vblex"/></l><r>दौड़<s n="vblex"/><s n="pcnd"/></r></p></e>
+      <e><p><l>লুকিয়ে<s n="vblex"/></l><r>छिप<s n="vblex"/></r></p></e> 
       <e><p><l>লুকা<s n="vblex"/></l><r>छिप<s n="vblex"/></r></p></e> 
       <e><p><l>বস<s n="vblex"/></l><r>बैठ<s n="vblex"/></r></p></e>
       <e><p><l>গুন<s n="vblex"/></l><r>गिन<s n="vblex"/></r></p></e>
