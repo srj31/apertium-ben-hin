@@ -138,6 +138,7 @@
       <e><p><l>একটু<s n="adj"/></l><r>थोड़ा<s n="adj"/></r></p></e>
      
       <!-- SECTION ADVERBS -->
+      <e><p><l>চারপাশে<s n="adv"/></l><r>चारों<b/>ओर<s n="adv"/></r></p></e>
       <e><p><l>কেন<s n="adv"/></l><r>क्यों<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>এমন<s n="adv"/></l><r>ऐसा<s n="det"/></r></p></e>
       <e><p><l>পিছনে<s n="adv"/></l><r>पीछे<s n="adv"/></r></p></e>
@@ -153,10 +154,13 @@
       <e><p><l>অবশ্যই<s n="adv"/></l><r>बेशक<s n="adv"/></r></p></e>
       <e><p><l>না<s n="adv"/></l><r>नहीं<s n="adv"/></r></p></e>
       <e><p><l>নেই<s n="adv"/></l><r>नहीं<s n="adv"/></r></p></e>
+      <e><p><l>কাছে<s n="adv"/></l><r>पास<s n="adv"/></r></p></e>
       <e><p><l>আজ<s n="adv"/></l><r>आज<s n="adv"/></r></p></e>
       <e><p><l>সবদিকে<s n="adv"/></l><r>हर<b/>ओर<s n="adj"/></r></p></e>
       <!-- SECTION CONJUNCTION -->
 
+      
+      <e ><p><l>আর<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
       <e><p><l>এবং<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
       <e><p><l>বা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
       <e><p><l>কিন্তু<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
@@ -220,7 +224,7 @@
 
     <!-- SECTION POSTPOSITION -->
 
-    <e><p><l>সামনে<s n="adj"/></l><r>सामने<s n="post"/></r></p></e>
+    <e><p><l>সামনে<s n="adv"/></l><r>सामने<s n="post"/></r></p></e>
     <e><p><l>সামনের<s n="post"/></l><r>सामने<b/>वाले<s n="adv"/></r></p></e>
     <e><p><l>সাথে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>    
     <e><p><l>দিয়ে<s n="post"/></l><r>से<s n="post"/></r></p></e>
@@ -270,7 +274,7 @@
     <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="nn" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
-    <e><p><l>কিছু<s n="prn" /></l><r>कुछ<s n="adv"/></r></p></e>    
+    <e><p><l>কিছু<s n="prn" /><s n="p3"/><s n="mf"/></l><r>कुछ<s n="adj"/><s n="m"/></r></p></e>    
     <!-- p3 is not well defined in hindi -->
 
     <!-- Need to work more on this -->
@@ -279,7 +283,7 @@
 
     <!-- SECTION VERBS -->
       <e><p><l>জান<s n="vblex"/></l><r>जान<s n="vblex"/></r></p></e>
-      <e><p><l>পা<s n="vblex"/></l><r>पा<s n="vblex"/></r></p></e>
+      <e><p><l>পা<s n="vblex"/></l><r>सक<s n="vaux"/></r></p></e>
       <e><p><l>যা<s n="vblex"/></l><r>जा<s n="vblex"/></r></p></e>
       <e><p><l>ছুট<s n="vblex"/></l><r>कर<s n="vaux"/></r></p></e>
       <e><p><l>কর<s n="vblex"/></l><r>कर<s n="vaux"/></r></p></e>
