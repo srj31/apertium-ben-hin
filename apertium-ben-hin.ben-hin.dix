@@ -76,6 +76,7 @@
     <sdef n="gen"             c="Genitive"/>
     <sdef n="dist"            c="Distant"/>
     <sdef n="dat"             c="Dative"/>
+    <sdef n="erg"             c="Ergative"/>
 
     <sdef n="dem"             c="Demonstrative"/>
     <sdef n="itg"             c="Question word / interrogative"/>
@@ -285,10 +286,13 @@
     <!-- gender  -->
     <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
-
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="erg"/></r></p></e>
     <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
     <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
+    
     <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
+    <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="dat"/></r></p></e>
+
     <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="infml" /><s n="nn" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
@@ -300,8 +304,10 @@
      <!-- <e><p><l>সামনে<s n="post"/></l><r>सामने<s n="post"/></r></p></e> -->
 
     <!-- SECTION VERBS -->
+    <e><p><l>খুঁজ<s n="vblex"/></l><r>खोज<s n="vblex"/></r></p></e>
       <e><p><l>তাকা<s n="vblex"/></l><r>देख<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>চল<s n="vblex"/></l><r>चल<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>যা<s n="vblex"/></l><r>जा<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>শোন<s n="vblex"/></l><r>सुन<s n="vblex"/></r></p></e>
       <e><p><l>শোনা<s n="vblex"/></l><r>सुन<s n="vblex"/></r></p></e>
       <e><p><l>চেষ্টা<b/>কর<s n="vblex"/></l><r>कोशिश<b/>कर<s n="vblex"/></r></p></e>
