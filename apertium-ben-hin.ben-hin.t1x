@@ -79,6 +79,7 @@
     <def-attr n="a_n">
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.top"/>
     </def-attr>
 
     <def-attr n="case">

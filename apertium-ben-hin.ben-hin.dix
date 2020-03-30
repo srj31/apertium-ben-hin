@@ -201,7 +201,10 @@
       <!-- SECTION: Nouns -->
 
     <!-- negation markers are missing in bengali-->
-      <e><p><l>সময়<s n="n"/><s n="mf"/><s n="nn"/></l><r>समय<s n="n"/><s n="m"/></r></p></e>
+
+
+    <e><p><l>ভারত<s n="np" /><s n="top" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>भारत<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
+    <e><p><l>সময়<s n="n"/><s n="mf"/><s n="nn"/></l><r>समय<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>বয়স<s n="n"/><s n="mf"/><s n="nn"/></l><r>उम्र<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>মা<s n="n"/><s n="f"/><s n="hu"/></l><r>मां<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>বছর<s n="n"/><s n="nt"/><s n="nn"/></l><r>साल<s n="n"/><s n="m"/></r></p></e>
