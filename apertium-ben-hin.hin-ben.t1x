@@ -46,6 +46,10 @@
 
   <section-def-attrs>
 
+    <def-attr n="sint">
+      <attr-item tags="sint"/>
+    </def-attr>
+
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.pos"/>
@@ -502,8 +506,10 @@
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_adj"/>
+            <clip pos="1" side="tl" part="sint"/>
             <lit-tag v="mf"/>
           </lu>
+
           </chunk>
         </out>
       </action>
