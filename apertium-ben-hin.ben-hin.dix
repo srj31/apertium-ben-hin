@@ -122,6 +122,9 @@
       <!-- Gsoc2020 coding challenge -->
 
       <!-- SECTION ADJECTIVES -->
+      <e><p><l>মেডিকেল<s n="adj"/></l><r>मेडिकल<s n="adj"/></r></p></e>
+      <e><p><l>সাড়ে<s n="adj"/></l><r>डेढ़<s n="adj"/></r></p></e>
+      <e><p><l>আহত<s n="adj"/></l><r>घायल<s n="adj"/></r></p></e>
       <e><p><l>খুশি<s n="adj"/></l><r>खुश<s n="adj"/></r></p></e>
       <e><p><l>সর্বদা<s n="adv"/></l><r>हमेशा<s n="adv"/></r></p></e>
       <e><p><l>সুন্দর<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e> 
@@ -141,6 +144,8 @@
       <!-- SECTION ADVERBS -->
       <e><p><l>দুজনেই<s n="adv"/></l><r>दोनों<b/>ही<s n="adv"/></r></p></e>
       <e><p><l>হয়ে<s n="adv"/></l><r>होकर<s n="adv"/></r></p></e>
+      <e><p><l>হয়<s n="adv"/></l><r>होता<b/>है<s n="adv"/></r></p></e>
+      <e><p><l>হয়<s n="adv"/></l><r>होता<b/>है<s n="adv"/></r></p></e>
       <e><p><l>কখনও<s n="adv"/></l><r>कभी<b/>भी<s n="adv"/></r></p></e>
       <e><p><l>এখনই<s n="adv"/></l><r>अभी<b/>ही<s n="adv"/></r></p></e>
       <e><p><l>মনোযোগ<s n="adv"/></l><r>ध्यान<s n="adv"/></r></p></e>
@@ -175,6 +180,7 @@
       <!-- SECTION CONJUNCTION -->
 
       
+      <e r="LR"><p><l>ও<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
       <e ><p><l>অন্য<s n="cnjcoo"/></l><r>अन्य<s n="cnjcoo"/></r></p></e>
       <e ><p><l>আর<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>  
       <e><p><l>এবং<s n="cnjcoo"/></l><r>और<s n="cnjcoo"/></r></p></e>
@@ -203,20 +209,26 @@
     <!-- negation markers are missing in bengali-->
 
 
-    <e><p><l>ভারত<s n="np" /><s n="top" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>भारत<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
+    <e><p><l>ভারত<s n="np" /><s n="top" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>भारत<s n="np"/><s n="top"/><s n="sg"/></r></p></e> 
+    <e><p><l>শ্রমিক<s n="n"/><s n="mf"/><s n="hu"/></l><r>मज़दूर<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>সময়<s n="n"/><s n="mf"/><s n="nn"/></l><r>समय<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>বয়স<s n="n"/><s n="mf"/><s n="nn"/></l><r>उम्र<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>মা<s n="n"/><s n="f"/><s n="hu"/></l><r>मां<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>বছর<s n="n"/><s n="nt"/><s n="nn"/></l><r>साल<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>দিক<s n="n"/><s n="mf"/><s n="nn"/></l><r>दिशा<s n="n"/><s n="f"/>></r></p></e>
+    <e><p><l>দিক<s n="n"/><s n="mf"/><s n="nn"/></l><r>दिशा<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>কলেজ<s n="n"/><s n="mf"/><s n="nn"/></l><r>कॉलेज<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>লাশ<s n="n"/><s n="mf"/><s n="nn"/></l><r>लाश<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ভিতর<s n="n"/><s n="nt"/><s n="nn"/></l><r>अंदर<s n="n" /><s n="m"/></r></p></e>
     <e><p><l>ভেতর<s n="n"/><s n="mf"/><s n="nn"/></l><r>अंदर<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>সৌরভ<s n="np"/><s n="ant"/><s n="m"/></l><r>सौरभ<s n="np" /><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>জেমস<s n="np"/><s n="ant"/><s n="m"/></l><r>जेम्स<s n="np" /><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>চন্দ্র<s n="np"/><s n="ant"/><s n="m"/></l><r>चंद्रमा<s n="np" /><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>মেরি<s n="np"/><s n="ant"/><s n="f"/></l><r>मैरी<s n="np" /><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>বাগান<s n="n" /><s n="mf" /><s n="nn"/></l><r>बगीचा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>আবহাওয়া<s n="n"/><s n="nt"/><s n="nn"/></l><r>मौसम<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>গতকাল<s n="n"/><s n="nt"/><s n="nn"/></l><r>कल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>বাড়ি<s n="n"/><s n="nt"/><s n="nn"/></l><r>घर<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>যাত্রী<s n="n"/><s n="mf"/><s n="hu"/></l><r>यात्री<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ছেলে<s n="n"/><s n="mf"/><s n="hu"/></l><r>लड़का<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>মেয়ে<s n="n"/><s n="f"/><s n="hu"/></l><r>लड़की<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>বোন<s n="n"/><s n="f"/><s n="hu"/></l><r>बहन<s n="n"/><s n="f"/></r></p></e>
@@ -226,9 +238,11 @@
     <e><p><l>সন্তান<s n="n"/><s n="mf"/><s n="hu"/></l><r>बच्चा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>বিড়াল<s n="n"/><s n="mf"/><s n="aa"/></l><r>बिल्ली<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>জানালা<s n="n"/><s n="nt"/><s n="nn"/></l><r>खिड़की<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ঘটনাস্থল<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्थल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>গাছ<s n="n"/><s n="mf"/><s n="nn"/></l><r>पेड़<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>চোখ<s n="n"/><s n="nt"/><s n="nn"/></l><r>आंख<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>হাত<s n="n"/><s n="nt"/><s n="nn"/></l><r>हाथ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>এলাকা<s n="n"/><s n="mf"/><s n="nn"/></l><r>इलाका<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>খেলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>खेल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>প্রশ্ন<s n="n"/><s n="nt"/><s n="nn"/></l><r>सवाल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>লোক<s n="n"/><s n="m"/><s n="hu"/></l><r>लोग<s n="n"/><s n="m"/></r></p></e>
@@ -239,16 +253,22 @@
     <e><p><l>পাখি<s n="n"/><s n="mf"/><s n="aa"/></l><r>पक्षी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>প্রাণী<s n="n"/><s n="mf"/><s n="aa"/></l><r>पशु<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>মাথা<s n="n"/><s n="nt"/><s n="nn"/></l><r>सिर<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>উদ্ধার<s n="n"/><s n="mf"/><s n="nn"/></l><r>बचाव<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>সকাল<s n="n"/><s n="mf"/><s n="nn"/></l><r>सुबह<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>আগুন<s n="n"/><s n="mf"/><s n="nn"/></l><r>आग<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ট্রাক<s n="n"/><s n="mf"/><s n="nn"/></l><r>ट्रक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>কথা<s n="n"/><s n="mf"/><s n="nn"/></l><r>बात<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION POSTPOSITION -->
-
+    <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>
     <e><p><l>সামনে<s n="adv"/></l><r>सामने<s n="post"/></r></p></e>
     <e><p><l>সামনের<s n="post"/></l><r>सामने<b/>वाले<s n="adv"/></r></p></e>
     <e><p><l>সাথে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>    
     <e><p><l>দিয়ে<s n="post"/></l><r>से<s n="post"/></r></p></e>
+    <e><p><l>পরে<s n="post"/></l><r>बाद<b/>में<s n="post"/></r></p></e>
     <e><p><l>নীচে<s n="post"/></l><r>नीचे<s n="post"/></r></p></e>
     <e><p><l>বাইরে<s n="post"/></l><r>बाहर<s n="post"/></r></p></e>
+    <e><p><l>সঙ্গে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>
     <e><p><l>মধ্যে<s n="post"/></l><r>बीच<s n="post"/></r></p></e>
 
     <!-- SECTION PRONOUNS -->
@@ -350,24 +370,33 @@
  -->    
 
 
-    <e><p><l>এপ্রিল<s n="n"/><s n="mf"/><s n="nn"/></l><r>अप्रैल<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>থানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>थाना<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>হাসপাতাল<s n="n"/><s n="mf"/><s n="nn"/></l><r>अस्पताल<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>গ্রাম<s n="n"/><s n="mf"/><s n="nn"/></l><r>गाँव<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>জন<s n="n"/><s n="mf"/><s n="el"/></l><r>जन<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>এপ্রিল<s n="n"/><s n="mf"/><s n="nn"/></l><r>उपजिला<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>মংলা<s n="np"/><s n="top"/><s n="mf"/></l><r>मोंगला<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>শক্তি<s n="n"/><s n="mf"/><s n="nn"/></l><r>ऊर्जा<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>জীবনী<s n="n"/><s n="nt"/><s n="nn"/></l><r>जीवनी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>জুন<s n="n"/><s n="mf"/><s n="nn"/></l><r>जून<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>উপজেলা<s n="n"/><s n="mf"/><s n="nn"/></l><r>उपजिला<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>বন্যা<s n="n"/><s n="mf"/><s n="nn"/></l><r>बाढ<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>হরিণ<s n="n"/><s n="mf"/><s n="aa"/></l><r>हिरण<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>কার্বন<s n="n"/><s n="mf"/><s n="nn"/></l><r>कार्बन<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>সিমেন্ট<s n="n"/><s n="nt"/><s n="nn"/></l><r>सीमेंट<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ভাইরাস<s n="n"/><s n="nt"/><s n="nn"/></l><r>विषाणु<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>চাপ<s n="n"/><s n="mf"/><s n="nn"/></l><r>दाब<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>মাথা<s n="n"/><s n="mf"/><s n="nn"/></l><r>सिर<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>শিক্ষা<s n="n"/><s n="mf"/><s n="nn"/></l><r>शिक्षा<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>আকাশ<s n="n"/><s n="nt"/><s n="nn"/></l><r>आसमान<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>রাত<s n="n"/><s n="mf"/><s n="nn"/></l><r>रात<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ব্যবসা<s n="n"/><s n="mf"/><s n="nn"/></l><r>व्यापार<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>জুলাই<s n="n"/><s n="mf"/><s n="nn"/></l><r>जुलाई<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>গ্যাস<s n="n"/><s n="nt"/><s n="nn"/></l><r>गैस<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>সংখ্যা<s n="n"/><s n="nt"/><s n="nn"/></l><r>संख्या<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>লবণ<s n="n"/><s n="nt"/><s n="nn"/></l><r>साधारण<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>জীবন<s n="n"/><s n="nt"/><s n="nn"/></l><r>जीवन<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>শুরু<s n="n"/><s n="nt"/><s n="nn"/></l><r>शुरुआत<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ভুট্টা<s n="n"/><s n="nt"/><s n="nn"/></l><r>मक्का<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>আপেল<s n="n"/><s n="nt"/><s n="nn"/></l><r>सेब<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ধর্ম<s n="n"/><s n="mf"/><s n="nn"/></l><r>धर्म<s n="n"/><s n="m"/></r></p></e>
