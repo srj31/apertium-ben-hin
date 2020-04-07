@@ -66,11 +66,16 @@
     <sdef n="pcnd"         c="Conditional Participle"/>    
     <sdef n="imp"          c="Imperative"/>    
     <sdef n="sent"         c="End of sentence marker"/>  
+    <sdef n="cm"          c="comma"/>    
+
 </sdefs>  
   <pardefs>
     <!--Punctuation -->    
     <pardef n="separa">      
       <e><re>[.\?;:!৷।]</re><p><l/><r><s n="sent"/></r></p></e>    
+    </pardef>
+    <pardef n="coma">
+      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
     </pardef>
     
     <pardef n="numerals">      
@@ -4543,6 +4548,7 @@
   <section id="main" type="standard">
 
     <!-- Nouns gsoc2020 for coding challenge-->
+    <e lm="সৌরভ"><i>সৌরভ</i><par n="হক__np_m" /></e>
     <e lm="জেমস"><i>জেমস</i><par n="হক__np_m" /></e>
     <e lm="মেরি"><i>মেরি</i><par n="আরা__np_f" /></e> 
     <e lm="বাগান"><i>বাগান</i><par n="গড়__n_mf" /></e>
@@ -5283,6 +5289,7 @@
     <e lm="সম্পৃক্ত"><i>সম্পৃক্ত</i><par n="টক__adj" /></e>    
     <e lm="বিচ্ছিন্ন"><i>বিচ্ছিন্ন</i><par n="টক__adj" /></e>    
     <e lm="সামনে"><i>সামনে</i><par n="টক__adj" /></e>    
+    <e lm="শেষে"><i>সামনে</i><par n="ও__adv" /></e> 
     <e lm="সামনে"><i>সামনে</i><par n="ও__adv" /></e> 
     <e lm="ব্যবহৃত"><i>ব্যবহৃত</i><par n="টক__adj" /></e>    
     <e lm="র্যালি"><i>র্যালি</i><par n="টক__adj" /></e>    
@@ -6624,6 +6631,7 @@
     <e lm="হলেও"><i>হলেও</i><par n="ও__adv" /></e>    
     <e lm="হারে"><i>হারে</i><par n="ও__adv" /></e>    
     <e lm="হালকা ভাবে"><i>হালকা<b />ভাবে</i><par n="ও__adv" /></e>    
+    <e lm="হয়"><i>হয়</i><par n="ও__adv" /></e>    
     <e lm="হয়ে"><i>হয়ে</i><par n="ও__adv" /></e>    
     <e lm="হয়ত"><i>হয়ত</i><par n="ও__adv" /></e>    
     <e lm="হয়তো"><i>হয়তো</i><par n="ও__adv" /></e>
@@ -7147,7 +7155,7 @@
     <e lm="প্রক্টর"><i>প্রক্টর</i><par n="জজ__n_mf" /></e>    
     <e lm="আবৃত্তি"><i>আবৃত্তি</i><par n="মে__n_mf" /></e>    
     <e lm="পরোয়ানা"><i>পরোয়ানা</i><par n="দশা__n_nt" /></e>    
-    <e lm="ডেস্ক"><i>ডেস্ক</i><par n="গড়__n_mf" /></e>    
+    <e lm="ডেস্ক"><i>ডেস্ক</i><par n="গড়__n_mf" /></e>        
     <e lm="এলাকা"><i>এলাকা</i><par n="ডা__n_mf" /></e>    
     <e lm="হস্তান্তর"><i>হস্তান্তর</i><par n="গড়__n_mf" /></e>    
     <e lm="ইউরো"><i>ইউরো</i><par n="সি__n_nt" /></e>    
@@ -7581,6 +7589,7 @@
     <e lm="চ্যানেল"><i>চ্যানেল</i><par n="গড়__n_mf" /></e>    
     <e lm="হিসেব"><i>হিসেব</i><par n="গড়__n_mf" /></e>    
     <e lm="উদযাপন"><i>উদযাপন</i><par n="গড়__n_mf" /></e>    
+    <e lm="বিকাল"><i>বিকাল</i><par n="গড়__n_mf" /></e>    
     <e lm="বিকেল"><i>বিকেল</i><par n="গড়__n_mf" /></e>    
     <e lm="ঘুমানো"><i>ঘুমানো</i><par n="মে__n_mf" /></e>    
     <e lm="প্রতিযোগী"><i>প্রতিযোগী</i><par n="ওসি__n_mf" /></e>    
@@ -8360,6 +8369,7 @@
     <e lm="বক্তব্য"><i>বক্তব্য</i><par n="গড়__n_mf" /></e>    
     <e lm="কাগজ"><i>কাগজ</i><par n="গড়__n_mf" /></e>    
     <e lm="উদ্বোধন"><i>উদ্বোধন</i><par n="ঝড়__n_nt" /></e>    
+    <e lm="সড়ক"><i>সড়ক</i><par n="ঝড়__n_nt" /></e>    
     <e lm="সূত্র"><i>সূত্র</i><par n="ঝড়__n_nt" /></e>    
     <e lm="কাদা"><i>কাদা</i><par n="দশা__n_nt" /></e>    
     <e lm="মধু"><i>মধু</i><par n="সি__n_nt" /></e>    
@@ -12868,9 +12878,12 @@
     <e lm="অথবা"><i>অথবা</i><par n="ও__cnjcoo" /></e>    
     <e lm="তবে"><i>তবে</i><par n="ও__cnjcoo" /></e>    
     <e lm="বা"><i>বা</i><par n="ও__cnjcoo" /></e>    
-    <e lm="ও"><i>ও</i><par n="ও__cnjcoo" /></e>  
+    <e lm="ও"><i>ও</i><par n="ও__cnjcoo" /></e> 
+
+    <e lm=","><i>,</i><par n="coma"/></e> 
   </section>  
-  <section id="final" type="inconditional">    
+  <section id="final" type="inconditional"> 
+      <e><par n="coma"/></e>   
       <e><par n="separa"/></e>    
       <e><par n="numerals"/></e>  
   </section>
