@@ -272,7 +272,47 @@
       <e><p><l>বা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
       <e><p><l>কিন্তু<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
       <e><p><l>তবে<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
-      
+
+      <!-- GSoC 2021 -->
+
+      <e><p><l>যেমন<s n="cnjcoo"/></l><r>जैसे<s n="cnjcoo"/></r></p></e>
+      <e><p><l>পরে<s n="cnjcoo"/></l><r>बाद में<s n="cnjcoo"/></r></p></e>
+      <e><p><l>আবার<s n="cnjcoo"/></l><r>फ़िर से<s n="cnjcoo"/></r></p></e>
+      <e><p><l>তারপর<s n="cnjcoo"/></l><r>फिर<s n="cnjcoo"/></r></p></e>
+      <e><p><l>আরো<s n="cnjcoo"/></l><r>अधिक<s n="cnjcoo"/></r></p></e>
+      <e><p><l>যদিও<s n="cnjcoo"/></l><r>हालांकि<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ফলে<s n="cnjcoo"/></l><r>नतीजतन<s n="cnjcoo"/></r></p></e>
+      <e><p><l>যতক্ষন<s n="cnjcoo"/></l><r>जब तक<s n="cnjcoo"/></r></p></e>
+      <e><p><l>উভয়<s n="cnjcoo"/></l><r>दोनों<s n="cnjcoo"/></r></p></e>
+      <e><p><l>কারণে<s n="cnjcoo"/></l><r>इसलिए<s n="cnjcoo"/></r></p></e>
+      <e><p><l>তাছাড়া<s n="cnjcoo"/></l><r>इसके अलावा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>একইভাবে<s n="cnjcoo"/></l><r>उसी प्रकार<s n="cnjcoo"/></r></p></e>
+      <e><p><l>বিশেষকরে<s n="cnjcoo"/></l><r>विशेष रूप से<s n="cnjcoo"/></r></p></e>
+      <e><p><l>এমনকি<s n="cnjcoo"/></l><r>यहाँ तक की<s n="cnjcoo"/></r></p></e>
+      <e><p><l>যদিও<s n="cnjcoo"/></l><r>हालांकि<s n="cnjcoo"/></r></p></e>
+      <e><p><l>হয় এটা অথবা ওটা<s n="cnjcoo"/></l><r>ये न तोह वो<s n="cnjcoo"/></r></p></e>
+      <e><p><l>যেমন<s n="cnjcoo"/></l><r>जैसे<s n="cnjcoo"/></r></p></e>
+      <e><p><l>এছাড়াও<s n="cnjcoo"/></l><r>इसके अलावा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>সাধারণত<s n="cnjcoo"/></l><r>आम तौर पर<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অতঃপর<s n="cnjcoo"/></l><r>फिर<s n="cnjcoo"/></r></p></e>
+      <e><p><l>সত্ত্বেও<s n="cnjcoo"/></l><r>के बावजूद<s n="cnjcoo"/></r></p></e>
+      <e><p><l>লক্ষ্যনীয়<s n="cnjcoo"/></l><r>प्रसिद्ध<s n="cnjcoo"/></r></p></e>
+      <e><p><l>পক্ষান্তরে<s n="cnjcoo"/></l><r>इसके विपरीत<s n="cnjcoo"/></r></p></e>
+      <e><p><l>উপসংহার<s n="cnjcoo"/></l><r>निष्कर्ष<s n="cnjcoo"/></r></p></e>
+      <e><p><l>সংক্ষেপে<s n="cnjcoo"/></l><r>संक्षेप में<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ফলশ্রুতিতে<s n="cnjcoo"/></l><r>नतीजतन<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অধিকন্তু<s n="cnjcoo"/></l><r>अतिरिक्त<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ইতিমধ্যে<s n="cnjcoo"/></l><r>इस दौरान<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অর্থাৎ<s n="cnjcoo"/></l><r>अर्थात्<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অথবা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অন্যথা<s n="cnjcoo"/></l><r>अन्यथा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>সামগ্রিক<s n="cnjcoo"/></l><r>संपूर्ण<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অপরপক্ষে<s n="cnjcoo"/></l><r>दूसरी ओर<s n="cnjcoo"/></r></p></e>
+      <e><p><l>সুতরাং<s n="cnjcoo"/></l><r>इसलिए<s n="cnjcoo"/></r></p></e>
+      <e><p><l>পরবর্তীকালে<s n="cnjcoo"/></l><r>बाद में<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অতএব<s n="cnjcoo"/></l><r>इसलिये<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অত্যাধিক<s n="cnjcoo"/></l><r>बोहत ज़ियादा<s n="cnjcoo"/></r></p></e>
+
 
       <!-- SECTION DETERMINERS -->
       <e><p><l>রয়েছে<s n="det"/></l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
