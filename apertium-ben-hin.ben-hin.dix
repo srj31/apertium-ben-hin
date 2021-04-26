@@ -321,6 +321,7 @@
       <e><p><l>তা<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
       <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
 
+     
 
       <!-- needs gender -->
       <e><p><l>তার<s n="det"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dist"/></r></p></e>
@@ -410,6 +411,10 @@
     <e><p><l>বাইরে<s n="post"/></l><r>बाहर<s n="post"/></r></p></e>
     <e><p><l>সঙ্গে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>
     <e><p><l>মধ্যে<s n="post"/></l><r>बीच<s n="post"/></r></p></e>
+
+     <!-- GSoC 2021 -->
+    <e><p><l>মধ্যে<s n="post"/></l><r>बीच<s n="post"/></r></p></e>
+
 
     <!-- SECTION PRONOUNS -->
     <e><p><l>তা<s n="prn" /><s n="p3" /><s n="rel" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></l><r>वो<s n="adv"/></r></p></e>
@@ -508,6 +513,49 @@
       <e><p><l>লাগ<s n="vblex"/></l><r>लग<s n="vblex"/></r></p></e>
 <!--     <e><p><l><s n=""/></l><r><s n=""/></r></p></e>
  -->    
+      <!-- GSoC 2021 -->
+      <e><p><l>জেগে ওঠা<s n="vblex"/></l><r>उठो<s n="vblex"/></r></p></e>
+      <e><p><l>হওয়া<s n="vblex"/></l><r>होना<s n="vblex"/></r></p></e>
+      <e><p><l>আদেশ করা<s n="vblex"/></l><r>हुक्म देना<s n="vblex"/></r></p></e>
+      <e><p><l>বহন করা<s n="vblex"/></l><r>उठाना<s n="vblex"/></r></p></e>
+      <e><p><l>আঘাত করা<s n="vblex"/></l><r>चोट पहुंचाना<s n="vblex"/></r></p></e>
+      <e><p><l>ভেঙে ফেলা<s n="vblex"/></l><r>टोड देना<s n="vblex"/></r></p></e>
+      <e><p><l>কামড়ানো<s n="vblex"/></l><r>कटना<s n="vblex"/></r></p></e>
+      <e><p><l>আরম্ভ করা<s n="vblex"/></l><r>शुरू करना<s n="vblex"/></r></p></e>
+      <e><p><l>প্রবাহিত হওয়া<s n="vblex"/></l><r>प्रवाहित होना<s n="vblex"/></r></p></e>
+      <e><p><l>কেনা<s n="vblex"/></l><r>खरीदना<s n="vblex"/></r></p></e>
+      <e><p><l>পোড়ানো<s n="vblex"/></l><r>जलाना<s n="vblex"/></r></p></e>
+      <e><p><l>জন্ম দেওয়া<s n="vblex"/></l><r>जन्म दिया<s n="vblex"/></r></p></e>
+      <e><p><l>নত করা<s n="vblex"/></l><r>झुकना<s n="vblex"/></r></p></e>
+      <e><p><l>তৈরী করা<s n="vblex"/></l><r>बनाना<s n="vblex"/></r></p></e>
+      <e><p><l>দেখা<s n="vblex"/></l><r>देखना<s n="vblex"/></r></p></e>
+      <e><p><l>আসা<s n="vblex"/></l><r>आना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>পছন্দ করা<s n="vblex"/></l><r>पसंद करना<s n="vblex"/></r></p></e>
+      <e><p><l>লেগে থাকা<s n="vblex"/></l><r>लगे रहना<s n="vblex"/></r></p></e>
+      <e><p><l>আটকে থাকা<s n="vblex"/></l><r>अटके रहेना<s n="vblex"/></r></p></e>
+      <e><p><l>পোশাক পরা<s n="vblex"/></l><r>कपड़ा पहनना<s n="vblex"/></r></p></e>
+      <e><p><l>খনন করা<s n="vblex"/></l><r>खुदाई करना<s n="vblex"/></r></p></e>
+      <e><p><l>চালানো<s n="vblex"/></l><r>चालना<s n="vblex"/></r></p></e>
+      <e><p><l>অনুভব করা<s n="vblex"/></l><r>महसूस करना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
+
+
 
 
     <e><p><l>থানা<s n="n"/><s n="mf"/><s n="nn"/></l><r>थाना<s n="n"/><s n="m"/></r></p></e>
